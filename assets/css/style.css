@@ -110,24 +110,21 @@ main
     height: 210px;
     padding-top: 15px;
     padding-bottom: 15px;
+    padding: 15px;
     color: #fff;
-    margin-top: 50px;
     text-align: center;
     font-size: 20px;
 }
 
 #skills > article {
-    margin-top: 15px;
     margin-bottom: 15px;
     color: #fff;
 }
 
 #portfolio {
-    height: 210px;
     padding-top: 15px;
     padding-bottom: 15px;
     color: #fff;
-    margin-top: 50px;
     text-align: center;
     font-size: 20px;
 }
@@ -293,6 +290,7 @@ h1 {
 }
 
 a {
+    cursor: pointer;
     text-decoration: none;
     color: #00e6e6;
     text-shadow: 3px 3px 3px #333;
@@ -351,20 +349,19 @@ nav {
 }
 
 footer {
-    height: 175px;
+    height: 50px;
     width: 100%;
     background-color: rgba(55,55,55,0.7);
-    position: absolute;
-    top: 820px;
-    left: 0px;
+    margin-top: 50px;
 }
 
 footer > p{
+    padding-top: 10px;
     padding-left: 20px;
     height: 10px;
     display: block;
-    margin: -35px auto;
-    width: 237px;
+    margin: -25px auto;
+    width: 310px;
     color: #00e6e6;
 }
 
@@ -450,11 +447,43 @@ footer > p{
 }
 
 .halfRight {
-    width: 400px;
+    width: calc(50% - 5px);
     float: right;
 }
 
 .halfLeft {
-    width: 400px;
+    width: calc(50% - 5px);
     float: left;
+}
+
+h6 {
+    font-size: 25px;
+    color: #fff;
+    margin:0px;
+    margin-top: 25px;
+}
+
+h3 {
+    display: block;
+}
+
+.port {
+    width: calc(100% - 50px);
+    margin: 0px auto;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #fff;
+}
+
+.port > article {
+    color: #00e6e6;
+}
+
+.ski {
+    height: 28px;
+    background: rgba(16,16,16,0.3);
+}
+
+.ski:hover {
+    background: rgba(0, 230, 230, 0.3);
 }
